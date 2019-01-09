@@ -13,8 +13,9 @@ $ open http://localhost:7001/
 ### 部署
 
 ```bash
-$ npm run tsc
-$ npm start
+$ npm run build - 静态资源构建打包
+$ npm run tsc - ts编译
+$ npm start - 服务器启动
 ```
 
 ### 相关命令
