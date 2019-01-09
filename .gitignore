@@ -17,6 +17,7 @@ config/**/*.js
 app/**/*.map
 test/**/*.map
 config/**/*.map
+app/public/
 
 !.autod.conf.js
 !.eslintrc.js

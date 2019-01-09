@@ -79,9 +79,9 @@
     {% if Env == 'local' %}
         {{ helper.assets.getScript('app.js') | safe }}
     {% else %}
-        {{ helper.assets.getScript(ManifestMap['app.js']) | safe }}
-        {{ helper.assets.getScript(ManifestMap['vendors.js']) | safe }}
-        {{ helper.assets.getScript(ManifestMap['manifest.js']) | safe }}
+        {{ helper.assets.getScript('app.js') | safe }}
+        {{ helper.assets.getScript('vendors.js') | safe }}
+        {{ helper.assets.getScript('manifest.js') | safe }}
     {% endif %}
 </body>
 

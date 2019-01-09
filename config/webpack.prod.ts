@@ -67,6 +67,7 @@ const publicConfig = {
 
     new ManifestPlugin({
       fileName: path.resolve(__dirname, '../config/manifest.json'),
+      publicPath: '',
     }),
   ],
 };
