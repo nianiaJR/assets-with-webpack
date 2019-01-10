@@ -45,6 +45,8 @@
     "@types/mocha": "^2.2.40",
     "@types/node": "^7.0.12",
     "@types/supertest": "^2.0.0",
+    "style-loader": "^0.23.0",
+    "css-loader": "^1.0.0",
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
     "babel-eslint": "^9.0.0",
