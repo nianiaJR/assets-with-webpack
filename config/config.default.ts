@@ -24,7 +24,7 @@ export default (appInfo: EggAppInfo) => {
     templateViewEngine: 'nunjucks',
     devServer: {
       debug: false,
-      command: 'webpack-dev-server --config config/webpack.dev.ts --mode development --color --progress --hot --open',
+      command: 'webpack-dev-server --config config/webpack.dev.ts --mode development --color --progress --hot',
       port: 8888,
       env: {
         PUBLIC_PATH: 'http://127.0.0.1:8888',

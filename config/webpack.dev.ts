@@ -8,7 +8,7 @@ const devConfig = {
   entry: {
     app: [
       'react-hot-loader/patch',
-      path.join(__dirname, '../app/assets/index.js'),
+      path.join(__dirname, '../app/assets/index.tsx'),
     ],
   },
 

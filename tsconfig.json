@@ -4,6 +4,7 @@
     "target": "es2017",
     "module": "commonjs",
     "strict": true,
+    "jsx": "react",
     "noImplicitAny": false,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
