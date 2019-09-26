@@ -1,4 +1,4 @@
-# 基于egg + react 的全栈模板
+# 基于 egg + react + webpack 的全栈模板
 
 ## QuickStart
 
