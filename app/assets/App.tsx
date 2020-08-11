@@ -1,5 +1,6 @@
 import React from 'react'
 import { Hello } from './components'
+import { hot } from 'react-hot-loader/root';
 
 const App = () => (
   <div>
@@ -8,4 +9,4 @@ const App = () => (
   </div>
 )
 
-export default App
+export default hot(App)

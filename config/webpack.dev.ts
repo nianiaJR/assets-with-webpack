@@ -14,7 +14,7 @@ const devConfig = {
 
   output: {
     filename: '[name].js',
-    publicPath: 'http://127.0.0.1:8888'
+    publicPath: 'http://127.0.0.1:8888/'
   },
 
   module: {
@@ -28,6 +28,7 @@ const devConfig = {
 
   devServer: {
     port: 8888,
+    headers: { 'Access-Control-Allow-Origin': '*' },
     contentBase: path.join(__dirname, '../public'),
     historyApiFallback: true,
     host: 'localhost',
